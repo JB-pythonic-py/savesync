@@ -3,7 +3,7 @@ This runs a script at work and home to automate save game backups to and from dr
 
 ## Code Example
 ```
-directories = {localpath0:remotepath0,localpath1:remotepath1,}
+directories = {localpath0:remotepath0,localpath1:remotepath1}
 
 def toremote():
     for location in list(directories.items()):
